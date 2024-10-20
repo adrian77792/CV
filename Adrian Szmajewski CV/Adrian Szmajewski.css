@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+img {
+    border: 5px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Add padding to make buttons look nicer */
+    border-radius: 5px;  /* Rounded corners for the buttons */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Main sections */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #333; /* Color for section headers */
+}
+
+h4 {
+    color: #555; /* Color for subsection headers */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative; /* Adjust to prevent covering content */
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px; /* Adds space between the buttons and footer */
+}
+
+/* Social Media Section */
+#social {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#social .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* LinkedIn Button */
+.linkedin {
+    background-color: #0077B5;
+    color: white;
+}
+
+.linkedin:hover {
+    background-color: #005983;
+    transform: scale(1.05);
+}
+
+/* GitHub Button */
+.github {
+    background-color: #333;
+    color: white;
+}
+
+.github:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+/* Twitter Button */
+.twitter {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.twitter:hover {
+    background-color: #1a91da;
+    transform: scale(1.05);
+}

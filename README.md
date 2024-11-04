@@ -10,3 +10,5 @@ Technologies Used:
 HTML5 for structuring content.
 CSS3 for styling, including Flexbox and Grid for responsive layout design.
 This project demonstrates my understanding of web development fundamentals and my ability to create aesthetically pleasing and functional web interfaces.
+
+https://adrian77792.github.io/CV/Adrian%20Szmajewski%20CV/Adrian%20Szmajewski.html

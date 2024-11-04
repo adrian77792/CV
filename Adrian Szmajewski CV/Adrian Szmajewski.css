@@ -118,13 +118,155 @@ footer {
     transform: scale(1.05);
 }
 
-/* Twitter Button */
-.twitter {
+/* Facebook Button */
+.facebook {
     background-color: #1DA1F2;
     color: white;
 }
 
-.twitter:hover {
+.facebook:hover {
     background-color: #1a91da;
     transform: scale(1.05);
+}
+/* Stopka */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 1rem;
+    gap: 1rem; /* Dodatkowa przestrzeń między przyciskami */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Indywidualne kolory przycisków nawigacji */
+nav ul li:nth-child(1) a { background-color: #ffffff; color: black; } 
+nav ul li:nth-child(2) a { background-color: #ffffff; color: black; }
+nav ul li:nth-child(3) a { background-color: #ffffff; color: black; } 
+nav ul li:nth-child(4) a { background-color: #ffffff; color: black; } 
+
+/* Efekt hover na przyciskach */
+nav ul li a:hover {
+    background-color: #333; /* Zmiana koloru tła po najechaniu */
+    color: #fff; /* Kolor tekstu pozostaje biały */
+}
+.Upper-left {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+}
+
+.skills-skill {
+    padding: 0.8rem 1.5rem; /* Adjust padding to size the tags */
+    margin: 0.5rem; /* Add margin around each tag */
+    font-size: 1.4rem; /* Slightly smaller font size */
+    background: rgba(153, 153, 153, 0.2); /* Light gray background */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: 600; /* Bold text */
+    color: #666; /* Medium gray text color */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3; /* Możesz zmienić tło, aby lepiej widzieć przyciski */
+}
+
+.social-bar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 0 12px 12px 0;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px; /* Zaokrąglone kwadraty */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Kolory i gradienty dla różnych platform */
+.linkedin {
+    background: linear-gradient(145deg, #0077b5, #005582);
+}
+
+.facebook {
+    background: linear-gradient(145deg, #1da1f2, #007ab8);
+}
+
+.github {
+    background: linear-gradient(145deg, #333, #111);
+}
+
+/* Ikony SVG w tle */
+.linkedin::before,
+.facebook::before,
+.github::before, {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linkedin::before {
+    background-image: url('https://example.com/linkedin.svg'); /* Wstaw link do ikony LinkedIn */
+}
+
+.facebook::before {
+    background-image: url('https://example.com/twitter.svg'); /* Wstaw link do ikony Twitter */
+}
+
+.github::before {
+    background-image: url('https://example.com/github.svg'); /* Wstaw link do ikony GitHub */
+}
+#map {
+    background-image: url('your-location-image.jpg'); /* Przykładowe tło */
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+  }
+  .center-content {
+	text-align: center;
 }

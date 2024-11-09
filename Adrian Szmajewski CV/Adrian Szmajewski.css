@@ -50,6 +50,17 @@ nav ul li a:hover {
     background-color: #555; /* From VSL */
 }
 
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center; /* Center items vertically */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Add vertical spacing between items */
+    }
+}
+
 /* Main sections from W3SCHOOL */
 section {
     padding: 20px;

@@ -236,7 +236,7 @@ body {
 
 .linkedin::before,
 .facebook::before,
-.github::before, {
+.github::before {
     content: '';
     display: block;
     width: 24px;

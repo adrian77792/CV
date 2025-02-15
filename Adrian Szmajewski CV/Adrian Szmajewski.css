@@ -1,35 +1,39 @@
-/* General Styles from W3SCHOOL */
+/* === General Styles === */
 body {
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Light gray background */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* === Header Section === */
 header {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #333; /* Dark background */
     color: white;
 }
 
+/* Set margins for headings */
 h1, h2, h3, h4 {
     margin: 0;
 }
 
+/* === Image Styling === */
 img {
-    border: 5px solid #000;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border: 5px solid #000; /* Black border around images */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
     width: 300px;
     height: auto;
 }
 
+/* === Navigation Bar === */
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: #444;
+    background-color: #444; /* Dark gray navigation bar */
     padding: 10px 0;
 }
 
@@ -46,10 +50,12 @@ nav ul li a {
     transition: background-color 0.3s, transform 0.3s; /* From VSL */
 }
 
+/* Change background on hover */
 nav ul li a:hover {
     background-color: #555; /* From VSL */
 }
 
+/* === Responsive Navigation (for small screens) === */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -61,7 +67,7 @@ nav ul li a:hover {
     }
 }
 
-/* Main sections from W3SCHOOL */
+/* === Main Content Sections === */
 section {
     padding: 20px;
     margin: 10px;
@@ -69,6 +75,7 @@ section {
     border-radius: 5px;
 }
 
+/* Headings styling */
 h3 {
     color: #333; /* From VSL */
 }
@@ -77,6 +84,7 @@ h4 {
     color: #555; /* From VSL */
 }
 
+/* === Footer Section === */
 footer {
     text-align: center;
     padding: 10px;
@@ -108,7 +116,7 @@ footer {
 
 /* LinkedIn Button from bootstrap */
 .linkedin {
-    background-color: #0077B5;
+    background-color: #0077B5; 
     color: white;
 }
 
@@ -172,12 +180,16 @@ nav ul li a:hover {
     background-color: #333;
     color: #fff; 
 }
+
+/* === Upper Left Section === */
 .Upper-left {
     text-align: center;
     padding: 20px;
     background-color: #333;
     color: white;
 }
+
+/* === Skills Section === */
 .skills-container {
     display: flex;
     flex-wrap: wrap; 
@@ -203,6 +215,7 @@ body {
     background: #f3f3f3; 
 }
 
+/* === Floating Social Bar === */
 .social-bar {
     position: fixed;
     top: 50%;
@@ -216,6 +229,7 @@ body {
     border-radius: 0 12px 12px 0;
 }
 
+/* Social Icons */
 .social-icon {
     width: 30px;
     height: 30px;
@@ -233,6 +247,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Social Button Backgrounds */
 .linkedin {
     background: linear-gradient(145deg, #0077b5, #005582);
 }
@@ -256,12 +271,16 @@ body {
 .github::before {
     background-image: url('https://example.com/github.svg'); /* from bootstrap */
 }
+
+/* === Map Section === */
 #map {
     background-image: url('your-location-image.jpg'); 
     height: 400px;
     width: 100%;
     background-size: cover;
   }
+
+  /* Centering Content */
   .center-content {
 	text-align: center;
 }

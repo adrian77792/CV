@@ -110,7 +110,7 @@ Soft Skills: Strong work ethic, adaptability, attention to detail, independence,
 
 ![AmIResponsive](photo/Resume1.jpg)
 
-![AmIResponsive](photo/resume2.jpg.jpg)
+![AmIResponsive](photo/resume2.jpg)
 
 
 ### 📩 Contact

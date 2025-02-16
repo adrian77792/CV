@@ -1,81 +1,140 @@
-# Adrian Szmajewski - CV & Portfolio
+# Adrian Szmajewski | CV Portfolio
 
-## Project Description
+![AmIResponsive](photo/website.jpg)
 
-This project is my personal CV and website, showcasing my skills, professional experience, and projects related to software development. The website was created to present my technical competencies, project management skills, and experience working in diverse environments.
+![AmIResponsive](photo/Web%20Design%20Project.jpg)
 
-The project includes the following sections:
-- **About Me**: A brief description of my background, skills, and experience.
-- **Resume**: Information about my education, professional experience, and key projects.
-- **Contact**: My contact details (address, phone, email) and a Google Map showing my location.
-- **Download CV**: A button to download my CV in DOCX format.
+## 🎯 Introduction
+Welcome to my personal CV portfolio website! 🚀 This project showcases my skills, experience, and projects in an interactive and structured format. Designed with **HTML, CSS, the site provides a smooth and visually appealing experience across different devices.
 
-## Technologies Used
+This portfolio serves as a digital resume, allowing visitors to explore my background, technical skills, and previous projects while offering easy navigation and accessibility.
 
-- **HTML5**: Structure of the website.
-- **CSS3**: Styling, responsiveness, and animations.
-- **JavaScript**: Interactivity on the website.
-- **Bootstrap**: Framework for creating responsive components.
-- **Git & GitHub**: Version control and code hosting.
-- **Visual Studio Code**: Primary code editor used for the project.
+🔗 **Live Site:** [View my CV portfolio here](https://adrian77792.github.io/CV/Adrian%20Szmajewski%20CV/Adrian_Szmajewski.html)
 
-## Features
+🔗 **GitHub Repository:** [Check out the code](https://github.com/adrian77792/CV)
 
-1. **About Me**:
-   - A brief introduction about me, my skills, and my experience.
-   - Highlights of my technical competencies and project management skills.
+---
+## 📌 Table of Contents
+- [Introduction](#-introduction)
+- [User Experience (UX)](#-user-experience-ux)
+  - [Target Audience](#target-audience)
+  - [User Goals](#user-goals)
+  - [Design](#design)
+  - [Color Scheme](#color-scheme)
+- [Features](#-features)
+  - [Home Page](#home-page)
+  - [Skills](#skills)
+  - [Projects](#projects)
+  - [Contact](#contact)
+- [Future Features](#-future-features)
+- [Technologies Used](#-technologies-used)
+- [Deployment](#-deployment)
+- [Testing](#-testing)
+- [Credits](#-credits)
+- [Acknowledgments](#-acknowledgments)
 
-2. **Resume**:
-   - Detailed information about my education, professional experience, and key projects.
-   - A list of my technical and soft skills.
+---
+## 🎨 User Experience (UX)
 
-3. **Contact**:
-   - Contact information (address, phone, email).
-   - Google Map with my location marked.
+### Target Audience
+- Employers and recruiters looking for a software developer.
+- Professionals interested in collaborating on projects.
+- Tech enthusiasts exploring my portfolio and projects.
 
-4. **Download CV**:
-   - Button to download my CV in DOCX format.
+### User Goals
+- **First-time visitors:** Easily understand my skills and professional background.
+- **Returning visitors:** Stay updated with my latest projects and achievements.
 
-5. **Responsiveness**:
-   - The website is fully responsive and adapts to different screen sizes (desktop, tablet, mobile).
+### Design
+The design focuses on:
+- **Clean and modern UI:** Minimalistic, professional layout.
+- **Easy navigation:** Clearly structured menu for seamless browsing.
+- **Fully responsive:** Optimized for desktop, tablet, and mobile.
 
-## Validation
+### 🎨 Color Scheme
+The portfolio follows a modern and visually appealing color scheme:
+- **Background:** Light gray for a clean and professional look.
+- **Primary Color:** Dark blue (#2C3E50) to create a strong and elegant feel.
+- **Accent Color:** Vibrant cyan (#1ABC9C) for buttons and highlights, adding contrast and engagement.
+- **Text Color:** Dark gray (#333333) to ensure readability.
+- **Hover Effects:** Soft transitions to enhance user interaction.
 
-The project has successfully passed validation:
-- **HTML**: The HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/). No errors or warnings were found.
-- **CSS**: The CSS code was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors or warnings were found.
+![AmIResponsive](photo/colours.jpg)
 
-## How to Run the Project Locally
+---
+## 🔥 Features
 
-1. Clone the repository to your computer:
-   ```bash
-   git clone https://github.com/adrian77792/CV.git
+### 🏠 Home Page
+- Brief introduction and professional summary.
+- Call-to-action buttons directing to various sections.
 
-2. Navigate to the project folder:
-cd CV
+![AmIResponsive](photo/home_page.jpg)
 
-3. Open the index.html file in your browser to view the homepage.
+### 💡 Skills
+- List of programming languages, frameworks, and tools.
+- Visual representation for better understanding.
 
-File Structure
-CV/
-│
-├── Adrian_Szmajewski.html      # Main project page (About Me)
-├── resume.html                 # Resume page
-├── contact.html                # Contact page
-├── Adrian_Szmajewski.css       # Main CSS file
-├── Adrian_Szmajewski_CV.docx   # My CV in DOCX format
-├── JA32.jpg                    # My profile picture
-├── README.md                   # This file
-└── favicons/                   # Website icons
+### 💻 Projects
+- Showcases selected projects with descriptions, images, and links to GitHub repositories.
+- Technologies used for each project are highlighted.
 
-Author: Adrian Szmajewski
+### 📩 Contact
+- Contact form allowing users to reach out easily.
+- Links to LinkedIn, GitHub, and other professional profiles.
 
-E-mail: adrianszmajewski8@gmail.com
+![AmIResponsive](photo/contact.jpg)
+---
+## 🚀 Future Features
+- **Downloadable CV**: Provide a PDF version of my resume.
+- **Dark mode toggle**: Improve accessibility for users.
+- **More interactive elements**: Enhance user engagement.
 
-LinkedIn: linkedin.com/in/adrian-szmajewski-45ba6729a
+---
+## 🛠 Technologies Used
+- **HTML & CSS**: Page structure and styling.
+- **Bootstrap**: Ensuring responsiveness.
+- **GitHub Pages**: Hosting the website.
+- **Font Awesome**: Icons for better visual appeal.
+- **Google Fonts**: Custom typography.
 
-GitHub: github.com/adrian77792
+---
+## 🌍 Deployment
+The website is hosted using **GitHub Pages**:
+1. Code is stored in a GitHub repository.
+2. GitHub Pages is enabled in the repository settings.
+3. The live site is accessible via the provided URL.
 
-https://adrian77792.github.io/CV/Adrian%20Szmajewski%20CV/Adrian_Szmajewski.html
+To clone the repository locally:
+```sh
+ git clone https://github.com/adrian77792/CV.git
+```
 
-© 2025 Adrian Szmajewski - All rights reserved.
+---
+## ✅ Testing
+- **Responsiveness:** Verified across different devices.
+- **Cross-browser compatibility:** Tested on Chrome, Firefox, Edge, and Safari.
+- **Navigation usability:** Ensured smooth and intuitive browsing.
+- **Form validation:** Checked for proper input handling.
+
+![AmIResponsive](photo/Error.jpg)
+![AmIResponsive](photo/Error2.jpg)
+![AmIResponsive](photo/Error3.jpg)
+![AmIResponsive](photo/fix1.jpg)
+![AmIResponsive](photo/fix2.jpg)
+![AmIResponsive](photo/fix3.jpg)
+![AmIResponsive](photo/Local_metrics.jpg)
+![AmIResponsive](photo/Performance.jpg)
+![AmIResponsive](photo/Performance2.jpg)
+
+---
+## 📚 Credits
+- **Icons & Fonts:** Google Fonts, Font Awesome.
+- **Inspiration & Resources:** Various online tutorials and tech communities.
+
+---
+## 🙌 Acknowledgments
+- **Mentors & Peers:** For guidance and feedback.
+- **Tech Community:** For valuable learning resources.
+
+📌 *© 2025 Adrian Szmajewski - All rights reserved.*
+

@@ -59,11 +59,11 @@ cd CV
 File Structure
 CV/
 │
-├── index.html                  # Main project page (About Me)
+├── Adrian_Szmajewski.html      # Main project page (About Me)
 ├── resume.html                 # Resume page
 ├── contact.html                # Contact page
-├── Adrian Szmajewski.css       # Main CSS file
-├── Adrian Szmajewski - CV.docx # My CV in DOCX format
+├── Adrian_Szmajewski.css       # Main CSS file
+├── Adrian_Szmajewski_CV.docx   # My CV in DOCX format
 ├── JA32.jpg                    # My profile picture
 ├── README.md                   # This file
 └── favicons/                   # Website icons

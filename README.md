@@ -116,7 +116,6 @@ Soft Skills: Strong work ethic, adaptability, attention to detail, independence,
 
 
 ### 📩 Contact
-- Contact form allowing users to reach out easily.
 - Links to LinkedIn, GitHub, and other professional profiles.
 
 ![AmIResponsive](photo/contact.jpg)

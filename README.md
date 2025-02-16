@@ -2,12 +2,12 @@
 
 ![AmIResponsive](photo/website.jpg)
 
-![AmIResponsive](photo/Web%20Design%20Project.jpg)
-
 ## 🎯 Introduction
 Welcome to my personal CV portfolio website! 🚀 This project showcases my skills, experience, and projects in an interactive and structured format. Designed with **HTML, CSS, the site provides a smooth and visually appealing experience across different devices.
 
 This portfolio serves as a digital resume, allowing visitors to explore my background, technical skills, and previous projects while offering easy navigation and accessibility.
+
+![AmIResponsive](photo/Web%20Design%20Project.jpg)
 
 🔗 **Live Site:** [View my CV portfolio here](https://adrian77792.github.io/CV/Adrian%20Szmajewski%20CV/Adrian_Szmajewski.html)
 

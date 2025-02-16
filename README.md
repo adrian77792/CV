@@ -3,7 +3,7 @@
 ![AmIResponsive](photo/website.jpg)
 
 ## 🎯 Introduction
-Welcome to my personal CV portfolio website! 🚀 This project showcases my skills, experience, and projects in an interactive and structured format. Designed with **HTML, CSS, the site provides a smooth and visually appealing experience across different devices.
+Welcome to my personal CV portfolio website! 🚀 This project showcases my skills, experience, and projects in an interactive and structured format. Designed with **HTML and CSS**, the site provides a smooth and visually appealing experience across different devices.
 
 This portfolio serves as a digital resume, allowing visitors to explore my background, technical skills, and previous projects while offering easy navigation and accessibility.
 
@@ -76,7 +76,7 @@ The portfolio follows a modern and visually appealing color scheme:
 
 ### 💻 Projects
 - Showcases selected projects with descriptions, images, and links to GitHub repositories.
-- Technologies used for each project are highlighted.
+- Highlights technologies used for each project.
 
 ### 📩 Contact
 - Contact form allowing users to reach out easily.
@@ -85,7 +85,7 @@ The portfolio follows a modern and visually appealing color scheme:
 ![AmIResponsive](photo/contact.jpg)
 ---
 ## 🚀 Future Features
-- **Downloadable CV**: Provide a PDF version of my resume.
+- **Downloadable CV**: Provide a DOCX version of my resume.
 - **Dark mode toggle**: Improve accessibility for users.
 - **More interactive elements**: Enhance user engagement.
 

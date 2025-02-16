@@ -20,7 +20,7 @@ This portfolio serves as a digital resume, allowing visitors to explore my backg
   - [Target Audience](#target-audience)
   - [User Goals](#user-goals)
   - [Design](#design)
-  - [Color Scheme](#color-scheme)
+  - [Color Scheme](#-color-scheme)
 - [Features](#-features)
   - [Home Page](#-home-page)
   - [Skills](#-skills)
@@ -175,8 +175,10 @@ To clone the repository locally:
 
 ---
 ## 🙌 Acknowledgments
-- **Mentors & Peers:** For guidance and feedback.
-- **Tech Community:** For valuable learning resources.
+
+- *Code Institute*: Provided essential resources and guidance that were fundamental in developing the project.
+
+- *Slack Community*: Offered invaluable support and feedback throughout the development process.
 
 📌 *© 2025 Adrian Szmajewski - All rights reserved.*
 

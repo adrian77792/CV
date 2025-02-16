@@ -22,10 +22,11 @@ This portfolio serves as a digital resume, allowing visitors to explore my backg
   - [Design](#design)
   - [Color Scheme](#color-scheme)
 - [Features](#-features)
-  - [Home Page](#home-page)
-  - [Skills](#skills)
-  - [Projects](#projects)
-  - [Contact](#contact)
+  - [Home Page](#-home-page)
+  - [Skills](#-skills)
+  - [Resume](#-resume)
+  - [Contact](#-contact)
+  - [Footer](#-footer)
 - [Future Features](#-future-features)
 - [Technologies Used](#-technologies-used)
 - [Deployment](#-deployment)
@@ -74,15 +75,56 @@ The portfolio follows a modern and visually appealing color scheme:
 - List of programming languages, frameworks, and tools.
 - Visual representation for better understanding.
 
-### 💻 Projects
-- Showcases selected projects with descriptions, images, and links to GitHub repositories.
-- Highlights technologies used for each project.
+### 💻 Resume
+
+I’m Adrian Szmajewski, an aspiring software developer with experience in project management and teamwork in production environments. My website serves as my online CV, showcasing my skills, work experience, and projects I have worked on.
+
+Education
+I completed the Level 3 Skills Bootcamp in Software Development at The Skills Network (June 2023 – September 2023), where I gained expertise in Python, JavaScript, SQL, and web development principles.
+
+Technical & Professional Skills
+I have experience in project management, communication, working in regulated environments, and data management. My technical skills include:
+
+Programming Languages: Python, JavaScript, SQL, HTML, CSS, React
+Tools: Git, GitHub, Visual Studio Code, AutoCAD (2D – intermediate to advanced level)
+Work Experience
+Upholsterer – GreenGate Ltd, High Wycombe (September 2021 – Present)
+Working as part of a team to achieve production goals and maintain high standards.
+
+Frame Carpenter/Upholsterer – Hypnos Beds, Princes Risborough (August 2015 – August 2021)
+Managing precision-driven projects related to frame construction and upholstery.
+
+Frame Carpenter/Upholsterer – Correct, Ociaz, Poland (August 2014 – August 2015)
+Manufacturing custom furniture with a strong focus on quality control and process improvements.
+
+Key Projects
+Personal Portfolio Website – Designed and built a responsive website to showcase my projects and skills.
+Database Management System – Developed and implemented a system for efficient data entry and retrieval.
+Additional Skills & Certifications
+Languages: Fluent in English and Polish
+Certifications:
+The Skills Network Level 3 Skills Bootcamp in Software Development
+TQUK Level 2 Certificate in Principles of Team Leading (RQF)
+London Software Training Certificate in AutoCAD 2D Intermediate to Advanced
+Soft Skills: Strong work ethic, adaptability, attention to detail, independence, and teamwork
+
+![AmIResponsive](photo/Resume1.jpg)
+
+![AmIResponsive](photo/resume2.jpg.jpg)
+
 
 ### 📩 Contact
 - Contact form allowing users to reach out easily.
 - Links to LinkedIn, GitHub, and other professional profiles.
 
 ![AmIResponsive](photo/contact.jpg)
+
+### 💡 Footer
+- Footer includes links to my LinkedIn, GitHub, and Facebook profiles.
+
+![AmIResponsive](photo/footer.jpg)
+
+
 ---
 ## 🚀 Future Features
 - **Downloadable CV**: Provide a DOCX version of my resume.

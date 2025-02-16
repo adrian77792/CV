@@ -76,6 +76,6 @@ LinkedIn: linkedin.com/in/adrian-szmajewski-45ba6729a
 
 GitHub: github.com/adrian77792
 
-https://adrian77792.github.io/CV/Adrian%20Szmajewski%20CV/Adrian%20Szmajewski.html
+https://adrian77792.github.io/CV/Adrian%20Szmajewski%20CV/Adrian_Szmajewski.html
 
-© 2024 Adrian Szmajewski - All rights reserved.
+© 2025 Adrian Szmajewski - All rights reserved.

@@ -56,7 +56,6 @@ The design focuses on:
 The portfolio follows a modern and visually appealing color scheme:
 - **Background:** Light gray for a clean and professional look.
 - **Primary Color:** Dark blue (#2C3E50) to create a strong and elegant feel.
-- **Accent Color:** Vibrant cyan (#1ABC9C) for buttons and highlights, adding contrast and engagement.
 - **Text Color:** Dark gray (#333333) to ensure readability.
 - **Hover Effects:** Soft transitions to enhance user interaction.
 

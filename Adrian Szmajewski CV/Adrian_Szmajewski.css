@@ -1,0 +1,286 @@
+/* === General Styles === */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Header Section === */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Dark background */
+    color: white;
+}
+
+/* Set margins for headings */
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+/* === Image Styling === */
+img {
+    border: 5px solid #000; /* Black border around images */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    width: 300px;
+    height: auto;
+}
+
+/* === Navigation Bar === */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #444; /* Dark gray navigation bar */
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* From VSL */
+    border-radius: 5px;  /* From VSL */
+    transition: background-color 0.3s, transform 0.3s; /* From VSL */
+}
+
+/* Change background on hover */
+nav ul li a:hover {
+    background-color: #555; /* From VSL */
+}
+
+/* === Responsive Navigation (for small screens) === */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center; /* Center items vertically */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Add vertical spacing between items */
+    }
+}
+
+/* === Main Content Sections === */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Headings styling */
+h3 {
+    color: #333; /* From VSL */
+}
+
+h4 {
+    color: #555; /* From VSL */
+}
+
+/* === Footer Section === */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px; 
+}
+
+/* Social Media Section from VSL */
+#social {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#social .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* LinkedIn Button from bootstrap */
+.linkedin {
+    background-color: #0077B5; 
+    color: white;
+}
+
+.linkedin:hover {
+    background-color: #005983;
+    transform: scale(1.05);
+}
+
+/* GitHub Button from bootstrap*/
+.github {
+    background-color: #333;
+    color: white;
+}
+
+.github:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+/* Facebook Button from bootstrap */
+.facebook {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.facebook:hover {
+    background-color: #1a91da;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 1rem;
+    gap: 1rem; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li:nth-child(1) a { background-color: #ffffff; color: black; } 
+nav ul li:nth-child(2) a { background-color: #ffffff; color: black; }
+nav ul li:nth-child(3) a { background-color: #ffffff; color: black; } 
+nav ul li:nth-child(4) a { background-color: #ffffff; color: black; } 
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff; 
+}
+
+/* === Upper Left Section === */
+.Upper-left {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* === Skills Section === */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.skills-skill {
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem; 
+    font-size: 1.4rem; 
+    background: rgba(153, 153, 153, 0.2); 
+    border-radius: 5px; 
+    font-weight: 600; 
+    color: #666; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3; 
+}
+
+/* === Floating Social Bar === */
+.social-bar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:10px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 0 12px 12px 0;
+}
+
+/* Social Icons */
+.social-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Social Button Backgrounds */
+.linkedin {
+    background: linear-gradient(145deg, #0077b5, #005582);
+}
+
+.facebook {
+    background: linear-gradient(145deg, #1da1f2, #007ab8);
+}
+
+.github {
+    background: linear-gradient(145deg, #333, #111);
+}
+
+.linkedin::before {
+    background-image: url('https://example.com/linkedin.svg'); /* from bootstrap */
+}
+
+.facebook::before {
+    background-image: url('https://example.com/twitter.svg'); /* from bootstrap */
+}
+
+.github::before {
+    background-image: url('https://example.com/github.svg'); /* from bootstrap */
+}
+
+/* === Map Section === */
+#map {
+    background-image: url('your-location-image.jpg'); 
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  /* Centering Content */
+  .center-content {
+	text-align: center;
+}

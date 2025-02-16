@@ -53,11 +53,14 @@ The design focuses on:
 - **Fully responsive:** Optimized for desktop, tablet, and mobile.
 
 ### 🎨 Color Scheme
-The portfolio follows a modern and visually appealing color scheme:
-- **Background:** Light gray for a clean and professional look.
-- **Primary Color:** Dark blue (#2C3E50) to create a strong and elegant feel.
-- **Text Color:** Dark gray (#333333) to ensure readability.
-- **Hover Effects:** Soft transitions to enhance user interaction.
+The portfolio follows a modern and visually appealing color scheme with a mix of bold and neutral tones:
+- **Primary Color:** (Deep Purple - #4D24A6): Adds a professional and stylish touch, making key elements stand out.
+- **Accent Color:** (Sky Blue - #4393D9): Provides contrast and a fresh, dynamic feel, ideal for highlighting buttons and interactive elements.
+- **Background Color:** (Light Grey - #F2F2F2): Ensures readability and a clean, minimalist look.
+- **Secondary Background:** (Light Blue - #D0DCF2): Complements the primary colors while maintaining a harmonious balance.
+- **Text & Contrast:** (Dark Grey/Black - #262626): Provides high readability and a sharp contrast against lighter backgrounds.
+
+This combination creates a professional, modern, and aesthetically pleasing design that enhances user experience while maintaining clarity and accessibility.
 
 ![AmIResponsive](photo/colours.jpg)
 

@@ -54,7 +54,6 @@ The design focuses on:
 
 ### 🎨 Color Scheme
 The portfolio follows a modern and visually appealing color scheme with a mix of bold and neutral tones:
-- **Primary Color:** (Deep Purple - #4D24A6): Adds a professional and stylish touch, making key elements stand out.
 - **Accent Color:** (Sky Blue - #4393D9): Provides contrast and a fresh, dynamic feel, ideal for highlighting buttons and interactive elements.
 - **Background Color:** (Light Grey - #F2F2F2): Ensures readability and a clean, minimalist look.
 - **Secondary Background:** (Light Blue - #D0DCF2): Complements the primary colors while maintaining a harmonious balance.
@@ -128,7 +127,7 @@ Soft Skills: Strong work ethic, adaptability, attention to detail, independence,
 
 ---
 ## 🚀 Future Features
-- **Downloadable CV**: Provide a DOCX version of my resume.
+- **Downloadable CV**: Provide a PDF version of my resume.
 - **Dark mode toggle**: Improve accessibility for users.
 - **More interactive elements**: Enhance user engagement.
 

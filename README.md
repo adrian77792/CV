@@ -9,7 +9,7 @@ This portfolio serves as a digital resume, allowing visitors to explore my backg
 
 ![AmIResponsive](photo/Web%20Design%20Project.jpg)
 
-🔗 **Live Site:** [View my CV portfolio here](https://adrian77792.github.io/CV/Adrian%20Szmajewski%20CV/index.html)
+🔗 **Live Site:** [View my CV portfolio here](https://adrian77792.github.io/CV/adrian_szmajewski_cv/index.html)
 
 🔗 **GitHub Repository:** [Check out the code](https://github.com/adrian77792/CV)
 

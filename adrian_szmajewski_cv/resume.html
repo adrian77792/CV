@@ -28,18 +28,18 @@
     <header>
         <h1>Adrian Szmajewski</h1>
         <h2>Aspiring Software Developer</h2>
-        <span><img src="assets/images/me32.jpg" alt="This is me"></span>
+        <span><img aria-label="This is my photo" src="assets/images/me32.jpg" alt="This is me"></span>
     </header>
 
    
     <!-- Navigation Menu -->
     <nav>
         <ul>
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="assets/documents/adrian_szmajewski_cv.docx" download>Download CV</a></li> <!-- Update path here -->
-        </ul>
+            <li><a aria-label="Navigate to About Me section" href="index.html">About Me</a></li>
+            <li><a aria-label="Navigate to Resume section" href="resume.html">Resume</a></li>
+            <li><a aria-label="Navigate to Contact section" href="contact.html">Contact</a></li>
+            <li><a aria-label="Download my CV in Word format" href="assets/documents/adrian_szmajewski_cv.docx" download>Download CV</a></li>
+          </ul>
     </nav>
 
     <!-- Education Section -->
@@ -122,16 +122,16 @@
     </section>
 
     <!-- Social media section with links to professional profiles -->	
-    <section id="social">
+    <section id="social" aria-label="Social media links">
         <h3>Social Media</h3>
-        <a href="https://www.linkedin.com/in/adrian-szmajewski-45ba6729a/" class="button linkedin" target="_blank">LinkedIn</a>
-        <a href="https://github.com/adrian77720" class="button github" target="_blank">GitHub</a>
-        <a href="https://www.facebook.com/profile.php?id=100008835840784" class="button facebook" target="_blank">facebook</a>
+        <a href="https://www.linkedin.com/in/adrian-szmajewski-45ba6729a/" class="button linkedin" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">LinkedIn</a>
+        <a href="https://github.com/adrian77720" class="button github" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">GitHub</a>
+        <a href="https://www.facebook.com/profile.php?id=100008835840784" class="button facebook" target="_blank" rel="noopener noreferrer" aria-label="Visit my Facebook profile">Facebook</a>
     </section>
 
     <!-- Social media icons with SVG icons for better accessibility -->
-    <div class="social-bar">
-        <a href="https://www.linkedin.com/in/adrian-szmajewski-45ba6729a/" target="_blank" class="social-icon linkedin" aria-label="LinkedIn">
+    <div class="social-bar" aria-label="Social media icons">
+        <a href="https://www.linkedin.com/in/adrian-szmajewski-45ba6729a/" target="_blank" class="social-icon linkedin" aria-label="LinkedIn profile">
             <span class="icon-text">
 
                 <!-- LinkedIn Icon -->
@@ -140,7 +140,8 @@
 				  </svg>
 			</span>
 		</a>
-		<a href="https://github.com/adrian77720" target="_blank" class="social-icon github" aria-label="GitHub">
+		<a href="https://github.com/adrian77720" target="_blank" class="social-icon github" aria-label="GitHub profile">
+            <!-- GitHub SVG -->
             <span class="icon-text">
 
                 <!-- GitHub Icon -->
@@ -149,7 +150,7 @@
 			</svg>
 			</span>
         </a>
-        <a href="https://www.facebook.com/profile.php?id=100008835840784" target="_blank" class="social-icon facebook" aria-label="Facebook">
+        <a href="https://www.facebook.com/profile.php?id=100008835840784" target="_blank" class="social-icon facebook" aria-label="Facebook profile">
             <span class="icon-text">
 
                 <!-- Facebook Icon -->

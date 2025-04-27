@@ -13,6 +13,24 @@ This portfolio serves as a digital resume, allowing visitors to explore my backg
 
 🔗 **GitHub Repository:** [Check out the code](https://github.com/adrian77792/CV)
 
+## 🎯 Project Goals
+
+- **Showcase Skills and Experience**  
+  The primary goal of this portfolio is to present my technical skills, professional background, and accomplishments in a clear and structured way.
+
+- **Create a Professional Online Presence**  
+  This project aims to establish my personal brand and serve as an easily accessible online portfolio for potential employers, clients, or collaborators.
+
+- **Facilitate Communication**  
+  The website includes contact forms and links to my social media profiles, enabling easy communication and collaboration opportunities.
+
+- **Stand Out in the Job Market**  
+  A well-designed, interactive portfolio helps differentiate me from other candidates, increasing my visibility and chances of being noticed by recruiters.
+
+- **Showcase Projects in Context**  
+  The portfolio displays my previous work, providing real-world examples and links to project repositories, allowing visitors to evaluate the quality and scope of my work.
+
+
 ---
 ## 📌 Table of Contents
 - [Introduction](#-introduction)
@@ -320,8 +338,21 @@ Let me know if you want a version with images or badges!
 
 ---
 ## 📚 Credits
-- **Icons & Fonts:** Google Fonts, Font Awesome.
-- **Inspiration & Resources:** Various online tutorials and tech communities.
+
+### Sidebar with Social Icons
+- Left-side sticky sidebar implemented with icons (e.g., FontAwesome) linking to external profiles (GitHub, LinkedIn).
+- Positioned using CSS (fixed position and vertical centering).
+- Enhances quick navigation to important resources.
+
+### Bootstrap Container
+- Main content structured inside Bootstrap's .container class.
+- Provides responsive padding and centers the page content for better readability.
+- Ensures the project layout remains clean and responsive across all screen sizes.
+
+### Icons & Fonts
+- Google Fonts, Font Awesome.
+### Inspiration & Resources
+- Various online tutorials and tech communities.
 
 ---
 ## 🙌 Acknowledgments

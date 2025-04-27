@@ -181,7 +181,7 @@ git clone https://github.com/adrian77792/CV.git
 ```
 
 Now you're all set! 🚀
-```
+
 
 Let me know if you want a version with images or badges!
 

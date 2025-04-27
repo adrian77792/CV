@@ -187,6 +187,68 @@ Let me know if you want a version with images or badges!
 
 ---
 ## ✅ Testing
+
+### Scope of Testing
+- **Responsiveness**: Verified across desktop, tablet, and mobile devices.
+- **Cross-browser compatibility**: Tested on Chrome, Firefox, Edge, and Safari.
+- **Navigation usability**: Ensured smooth and intuitive browsing experience.
+- **Form validation**: Checked for proper input handling and error messaging.
+- **HTML validation**: Verified with [Nu HTML Checker](https://validator.w3.org/nu/).
+
+---
+
+### Test Environments
+- **Browsers**: Chrome, Firefox, Edge, Safari
+- **Devices**: Desktop, laptop, tablet, smartphone
+- **HTML Validator**: Nu HTML Checker
+
+---
+
+### Test Scenarios
+
+#### 1. Responsiveness Testing
+- Open the site on desktop, tablet, and smartphone.
+- Resize browser windows and observe element behavior.
+- **Expected result**: Layout adapts correctly without overlapping or breaking.
+
+#### 2. Cross-browser Compatibility Testing
+- Open the site in Chrome, Firefox, Edge, and Safari.
+- Verify appearance, layout, and functionality in each browser.
+- **Expected result**: Consistent look and functionality across all tested browsers.
+
+#### 3. Navigation Usability Testing
+- Navigate through all links and sections.
+- Test all buttons and interactive elements.
+- **Expected result**: Smooth and intuitive navigation; all links and buttons work as intended.
+
+#### 4. Form Validation Testing
+- Fill out and submit available forms using correct and incorrect data.
+- Check for validation messages and error handling.
+- **Expected result**: Proper error messages for invalid inputs, successful submission for valid inputs.
+
+#### 5. HTML Validation Testing
+- Submit the page to Nu HTML Checker.
+- Analyze the validation results.
+
+**Validation findings**:
+- **Error**: Illegal character (space) in `href` attributes (CSS, HTML, DOCX file references).
+- **Error**: Stray `<div>` tag detected.
+
+---
+
+### Issues Identified and Fix Recommendations
+
+| # | Issue | Recommendation |
+|:-:|:------|:----------------|
+| 1 | Space in file paths (e.g., `Adrian Szmajewski.css`, `Adrian Szmajewski.html`) | Replace spaces with `%20` encoding or underscores `_` |
+| 2 | Stray or unclosed `<div>` tag | Correctly close or remove the unnecessary `<div>` |
+
+---
+
+### Summary
+- Responsiveness, cross-browser compatibility, and navigation usability were successfully verified.
+- Minor issues detected via HTML validation, easily fixable by correcting file paths and tag structure.
+
 - **Responsiveness:** Verified across different devices.
 - **Cross-browser compatibility:** Tested on Chrome, Firefox, Edge, and Safari.
 - **Navigation usability:** Ensured smooth and intuitive browsing.

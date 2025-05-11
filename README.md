@@ -30,6 +30,14 @@ This portfolio serves as a digital resume, allowing visitors to explore my backg
 - **Showcase Projects in Context**  
   The portfolio displays my previous work, providing real-world examples and links to project repositories, allowing visitors to evaluate the quality and scope of my work.
 
+## Wireframe Figma
+
+🔗 **Figma:** [View my Wireframe on Figma](https://www.figma.com/design/9iFyXgR7lZ2mdYJSimZVvS/Untitled?node-id=6-3&m=dev&t=EwnWsp720oqtiO25-1)
+
+### 📷 Wireframe Preview:
+![AmIResponsive](photo/page1.jpg)
+![AmIResponsive](photo/page2.jpg)
+![AmIResponsive](photo/page3.jpg)
 
 ---
 ## 📌 Table of Contents
@@ -38,6 +46,7 @@ This portfolio serves as a digital resume, allowing visitors to explore my backg
   - [Target Audience](#target-audience)
   - [User Goals](#user-goals)
   - [Design](#design)
+  - [Wireframe Figma](#wireframe-figma)
   - [Color Scheme](#-color-scheme)
 - [Features](#-features)
   - [Home Page](#-home-page)

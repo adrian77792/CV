@@ -370,5 +370,7 @@ Let me know if you want a version with images or badges!
 
 - *Slack Community*: Offered invaluable support and feedback throughout the development process.
 
+- *New City College – Andre Beckley*: Provided crucial support in correctly completing the project and offered valuable guidance on the documentation, which plays an essential role in the overall success of the project.
+
 📌 *© 2025 Adrian Szmajewski - All rights reserved.*
 

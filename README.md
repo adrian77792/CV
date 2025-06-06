@@ -341,6 +341,7 @@ Now you're all set! 🚀
 ![AmIResponsive](photo/Local_metrics.jpg)
 ![AmIResponsive](photo/Performance.jpg)
 ![AmIResponsive](photo/Performance2.jpg)
+![AmIResponsive](photo/css_validation.jpg)
 
 ---
 ## 📚 Credits
